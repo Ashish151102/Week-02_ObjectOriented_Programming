@@ -1,6 +1,6 @@
 package problemstatements.employeemanagementsystem;
 
-public class Employee {
+abstract public class Employee {
     private int employeeId;
     private String name;
     private double baseSalary;
