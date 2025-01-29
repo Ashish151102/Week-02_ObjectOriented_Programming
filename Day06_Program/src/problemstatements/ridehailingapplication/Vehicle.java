@@ -1,4 +1,4 @@
-package ridehailingapplication;
+package problemstatements.ridehailingapplication;
 
 
 abstract class Vehicle {

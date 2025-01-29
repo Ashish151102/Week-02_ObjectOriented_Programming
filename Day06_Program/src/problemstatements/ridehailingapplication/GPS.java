@@ -1,4 +1,4 @@
-package ridehailingapplication;
+package problemstatements.ridehailingapplication;
 
 interface GPS {
     String getCurrentLocation();

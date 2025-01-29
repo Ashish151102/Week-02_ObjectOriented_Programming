@@ -1,7 +1,7 @@
-package ridehailingapplication;
+package problemstatements.ridehailingapplication;
 
-class Car extends Vehicle implements GPS {
-    public Car(String vehicleId, String driverName, double ratePerKm) {
+class Bike extends Vehicle implements GPS {
+    public Bike(String vehicleId, String driverName, double ratePerKm) {
         super(vehicleId, driverName, ratePerKm);
     }
 
@@ -12,11 +12,11 @@ class Car extends Vehicle implements GPS {
 
     @Override
     public String getCurrentLocation() {
-        return "Car is at location A.";
+        return "Bike is at location X.";
     }
 
     @Override
     public void updateLocation() {
-        System.out.println("Car location updated to location B.");
+        System.out.println("Bike location updated to location Y.");
     }
 }
